@@ -23,9 +23,6 @@ sudo cpanm install List::Util; sudo cpanm install File::Slurp
 cd Downloads/recipe-randomizer ##Move to the folder where you saved the files.
 perl vegan.pl ##Runs the program.
 ```
-4. Do you like the menu? If not, run the program again. If you do, excellent. Save the output by copying & pasting elsewhere, texting to your roommates, etc.
-5. Go to the grocery store.
-6. Buy the ingredients listed.
-7. Make the food!
-8. EAT IT!
-9. Grow big & strong. Plant powered strong.
+Do you like the menu? If not, run the program again. If you do, excellent. Save the output by copying & pasting elsewhere, texting to your roommates, etc.
+
+As it is now, the grocery list will have repeat items across recipes. I may or may not implement a quantity tracker. It's a good idea to look over the list before going shopping, to condense the items or at least rearrange depending on where things are in your grocery store.
