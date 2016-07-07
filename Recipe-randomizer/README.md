@@ -4,4 +4,5 @@ A rudimentary perl program that takes your favorite recipes, their ingredients, 
 
 Extreme work in progress!!
 
-Hashtag VEGAN~
+## Hashtag VEGAN~
+The recipes currently loaded into recipes.csv are all plant based and tasty!
