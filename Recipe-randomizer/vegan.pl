@@ -6,23 +6,17 @@ use List::Util qw(shuffle);
 use List::Util qw(sum);
 
 my %recipes;
-my @recipes;
+#my @recipes;
 
 open (IN, '<', "recipes.csv") or die ($!);
   while (<IN>){
     chomp;
     my $line = $_ unless ($_ eq "\n");
-    push @recipes, $line;
+    my ($b, $c) = split '\t', $line;
+    my $ingredients = join ' ', (split ',', $c);
+    $recipes{$b} .= $ingredients;
    }
 close IN;
-
-foreach my $r (@recipes){
-  my ($b, $c) = split '\t', $r;
-  my @c = split ',', $c;
-  my $ingredients = join ' ', @c;
-  $recipes{$b} .= $ingredients;
-
-}
 
 my @days = ('Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday');
 
@@ -98,6 +92,3 @@ print "$_\n" for @finalized_list;
 print  "\n";
 
 exit;
-
-
-#
