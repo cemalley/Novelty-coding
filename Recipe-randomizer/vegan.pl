@@ -6,7 +6,6 @@ use List::Util qw(shuffle);
 use List::Util qw(sum);
 
 my %recipes;
-#my @recipes;
 
 open (IN, '<', "recipes.csv") or die ($!);
   while (<IN>){
