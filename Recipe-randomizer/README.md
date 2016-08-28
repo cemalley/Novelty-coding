@@ -2,10 +2,9 @@
 
 A simple perl program that takes a list of recipes and their ingredients and spits out a tidy menu for the week plus grocery list.
 
-Extreme work in progress!!
-
-## Hashtag VEGAN~
-The recipes currently loaded into recipes.csv are all plant based and tasty! To edit, open in a text file editor, or better yet, your handy dandy open source word processor (*cough* https://www.libreoffice.org/). It's tab-delimited only: the recipe names are on the left, 1 tab, then ingredients separated by commas on the right. The script needs those commas only between ingredients. It needs the commas. All the recipes are in metric units.
+## The recipes
+The recipes currently loaded into recipes.csv are all plant based and tasty! All the recipes are in metric units. Instructions are in PDF form; download here (http://bit.ly/2bK35iB).
+To edit recipes.csv, open in a text file editor, or better yet, your handy dandy open source word processor (*cough* https://www.libreoffice.org/). It is primarily tab-delimited: the recipe names are on the left, 1 tab, then ingredients separated by commas on the right.
 
 ## Dependencies
 Perl 5.1, List::Util.
