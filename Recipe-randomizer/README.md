@@ -11,7 +11,7 @@ Perl 5.1, List::Util.
 Perl comes preinstalled on Mac OS X. To install the pacakge, open the Terminal app, copy & paste the following, and hit enter:
 
 ```
-sudo cpanm install List::Util
+cpan install List::Util
 ```
 ## How to run THE RECIPE RANDOMIZER
 1. Download all the files in this folder.
