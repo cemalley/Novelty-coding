@@ -25,3 +25,26 @@ perl vegan.pl ##Runs the program.
 Do you like the menu? If not, run the program again. If you do, excellent. Save the output by copying & pasting elsewhere, texting to your roommates, etc.
 
 There is now quantity tracking! It sums over the week's ingredients, including small amounts of spices. It's a good idea to look over the list before going shopping, to rearrange depending on where things are in your grocery store, or at least to add other things you need.
+
+## Example output
+
+==========Menu==========
+
+Monday: cauliflower rice burrito bowl
+Tuesday: butternut squash enchiladas
+Wednesday: bbq sandwiches
+Thursday: curried butternut squash soup
+Friday: spaghetti squash bake 
+Saturday: lasanga with ricotta
+Sunday: burritos
+
+======Grocery List======
+
+59 ml almondmilk
+31 g basil
+2 cans black beans
+5 g bouillon paste
+200 g carrots
+4 g chili powder
+2 cilantro
+...
