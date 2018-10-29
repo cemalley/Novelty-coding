@@ -26,25 +26,27 @@ Do you like the menu? If not, run the program again. If you do, excellent. Save 
 
 There is now quantity tracking! It sums over the week's ingredients, including small amounts of spices. It's a good idea to look over the list before going shopping, to rearrange depending on where things are in your grocery store, or at least to add other things you need.
 
-## Example output
+## Example menu and grocery list
 
+```
 ==========Menu==========
 
-Monday: cauliflower rice burrito bowl
-Tuesday: butternut squash enchiladas
-Wednesday: bbq sandwiches
-Thursday: curried butternut squash soup
-Friday: spaghetti squash bake 
-Saturday: lasanga with ricotta
+Monday: pad thai
+Tuesday: lasanga with ricotta
+Wednesday: ramen soup
+Thursday: pasta alfredo
+Friday: rice, beans, and salad
+Saturday: bowl of sweet potato, quinoa or rice
 Sunday: burritos
 
 ======Grocery List======
 
+175 ml almond milk
 59 ml almondmilk
-31 g basil
-2 cans black beans
-5 g bouillon paste
-200 g carrots
-4 g chili powder
-2 cilantro
+1 can black beans
+10 g bouillon paste
+1 brown sugar
+340 g cauliflower
+1 cherry tomatoes
 ...
+```
